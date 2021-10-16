@@ -102,3 +102,27 @@ nav ul li span{
     transition: opacity 1s ease-in;
     width: 50px;
 }
+@media screen and (max-width:1200px) {
+    #myProgressBar{
+        margin-top: 1rem;
+    }
+    .songItem{
+        width: 70vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bottom .songInfo{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5rem;
+        margin-top: 0.7rem;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        height: 132px;
+    }
+}
