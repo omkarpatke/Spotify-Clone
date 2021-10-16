@@ -14,7 +14,7 @@ let songs = [
     {songName:'The Mad Song' , filePath:'songs/3.mp3' , coverPath:'covers/3.jpg'},
     {songName:'Plug Walk' , filePath:'songs/4.mp3' , coverPath:'covers/4.jpg'},
     {songName:'Safety dance' , filePath:'songs/6.mp3' , coverPath:'covers/6.jpg'},
-    {songName:'Back It Up' , filePath:'songs/6.mp3' , coverPath:'covers/7.jpg'},
+    {songName:'Back It Up' , filePath:'songs/7.mp3' , coverPath:'covers/7.jpg'},
     {songName:'True Love' , filePath:'songs/10.mp3' , coverPath:'covers/10.jpg'},
     
     
@@ -28,8 +28,6 @@ songItems.forEach((element , i) => {
   
 
 })
-
-// audioElement.play();
 
 // Handle play/pause click
 masterPlay.addEventListener('click' , () => {
