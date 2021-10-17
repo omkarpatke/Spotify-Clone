@@ -107,7 +107,7 @@ nav ul li span{
         margin-top: 1rem;
     }
     .songItem{
-        width: 70vw;
+        width: 82vw;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -124,5 +124,15 @@ nav ul li span{
         display: flex;
         flex-direction: column;
         height: 132px;
+    }
+    .songItem{
+        font-size: 0.9rem;
+    }
+    .songItemContainer {
+        margin: 15px 4px;
+    }
+    .songsList h2 {
+        padding: 10px 20px;
+        text-align: center;
     }
 }
