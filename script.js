@@ -81,8 +81,8 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) =>
               audioElement.pause();
               ele.target.classList.add('fa-play-circle');
               ele.target.classList.remove('fa-pause-circle');
-
-
+              masterPlay.classList.add('fa-play-circle');
+              masterPlay.classList.remove('fa-pause-circle');
           })
     })
 })
