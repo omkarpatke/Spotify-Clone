@@ -76,6 +76,14 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) =>
           gif.style.opacity = 1;
           masterPlay.classList.remove('fa-play-circle');
           masterPlay.classList.add('fa-pause-circle');
+
+          element.addEventListener('click' , (ele) => {
+              audioElement.pause();
+              ele.target.classList.add('fa-play-circle');
+              ele.target.classList.remove('fa-pause-circle');
+
+
+          })
     })
 })
 
